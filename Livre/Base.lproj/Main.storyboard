@@ -45,6 +45,9 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eet-3F-cee">
                                 <rect key="frame" x="127" y="343" width="117" height="30"/>
                                 <state key="normal" title="Get"/>
+                                <connections>
+                                    <action selector="getlivre:" destination="BYZ-38-t0r" eventType="touchUpInside" id="COE-bD-6LX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -64,6 +67,11 @@
                             <constraint firstItem="z19-n6-JyM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="212" id="z3g-EV-yTC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="auteur" destination="PPF-GR-hqi" id="8ry-iX-wVk"/>
+                        <outlet property="idlivre" destination="jPV-le-YPN" id="2fH-ii-Ei1"/>
+                        <outlet property="titre" destination="xiJ-HQ-LXi" id="kBh-ao-eMm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
